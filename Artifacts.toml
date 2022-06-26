@@ -1,7 +1,7 @@
 [[MPItrampoline]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d69736bef7ccbdb453105b342e26b57665db70d7"
+git-tree-sha1 = "35343a43dd9fedc950d79dd2f9b9c7d06e68b712"
 lazy = true
 libc = "glibc"
 libgfortran_version = "4.0.0"
@@ -9,5 +9,5 @@ mpi = "mpitrampoline"
 os = "linux"
 
     [[MPItrampoline.download]]
-    sha256 = "8ef1a076fd8096e612dfeb71c4ece8b1b64054c4c736529320caeec831491294"
+    sha256 = "8447dc05353cbfad7528df33b2c99eb2008d412f17df0ff1109d950630b1c535"
     url = "https://github.com/giordano/MPItrampoline_jll.jl/releases/download/MPItrampoline-v4.0.2+3/MPItrampoline.v4.0.2.x86_64-linux-gnu-libgfortran4-cxx11-mpi+mpitrampoline.tar.gz"
